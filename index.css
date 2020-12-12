@@ -5,7 +5,7 @@
                 text-decoration: none;
             }
             .max-width{
-                max-width:1300px;
+                max-width: 1300px;
                 padding: 0 80px;
                 margin: auto;
 
@@ -18,9 +18,10 @@
                 width: 100%;
                 padding: 30px 0;
                 font-family: 'Roboto', sans-serif;
+                transition: all 0.3s ease;
             }
             .navbar.sticky{
-                padding: 30px 0;
+                padding: 15px 0;
                 background: crimson;
 
             }
@@ -51,6 +52,17 @@
             .navbar .menu li a:hover {
                 color: crimson;
 
+
+            }
+            .navbar.sticky .menu li a:hover{
+                color: white;
+            } 
+            /* menu */
+            .menu-btn{
+                color: white;
+                font-size: 23px;
+                cursor: pointer;
+                display: none;
 
             }
             /* section styles start */
@@ -92,5 +104,30 @@
             .home .home-content .text-4 span{
                 color: crimson;
                 font-weight: 500;
-              
+
+            }
+            /* responsiveness */
+            @media(max-width: 991px){
+                .max-width{
+                   
+                    padding: 0 50px;
+                }
+                .navbar .menu{
+                  position: fixed;
+                  height: 100vh;
+                  width: 100%;
+                  left: 0;
+                  top: 0;
+                  background: black; 
+                  text-align: center; 
+                }
+                .navbar .menu li{
+                    display: block;
+                }
+                .navbar .menu li a{
+                    display: inline-block;
+                    margin: 20px 0;
+                    font-size: 25px;
+                }
+
             }
