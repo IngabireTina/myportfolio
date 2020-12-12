@@ -16,8 +16,13 @@
             .navbar {
                 position: fixed;
                 width: 100%;
-                background: crimson;
+                padding: 30px 0;
                 font-family: 'Roboto', sans-serif;
+            }
+            .navbar.sticky{
+                padding: 30px 0;
+                background: crimson;
+
             }
             .navbar .max-width{
                 display: flex;
@@ -30,6 +35,7 @@
                 font-size: 35px;
                 font-weight: 600;
             }
+            
             .navbar .menu li{
                 list-style: none;
                 display: inline-block;
@@ -38,9 +44,16 @@
             .navbar .menu li a {
                 color: white;
                 font-size: 18px;
-                font-weight: 400;
+                font-weight: 300;
                 margin-left: 25px;
+                transition: color 0.3s ease;
             }
+            .navbar .menu li a:hover {
+                color: crimson;
+
+
+            }
+            /* section styles start */
             .home{
                 display: flex;
                 background: url("ingabire4.jpg")no-repeat center;
