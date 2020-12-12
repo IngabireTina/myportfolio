@@ -17,7 +17,7 @@
                 position: fixed;
                 width: 100%;
                 background: crimson;
-                font-family: 'Ubuntu', sans-serif;
+                font-family: 'Roboto', sans-serif;
             }
             .navbar .max-width{
                 display: flex;
@@ -40,4 +40,20 @@
                 font-size: 18px;
                 font-weight: 400;
                 margin-left: 25px;
+            }
+            .home{
+                display: flex;
+                background: url("ingabire1.jpg")no-repeat center;
+                background-color: black;
+                height: 100vh;
+                color: white;
+                min-height: 500px;
+                font-family: 'Roboto', sans-serif;
+                
+            }
+            .home .max-width{
+                margin: auto 0 auto 40px;
+            }
+            .home .home-content .text-1{
+                font-size: 27px;
             }
