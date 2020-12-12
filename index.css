@@ -66,13 +66,13 @@
 
             }
             /* section styles start */
-            .home{
+            #home{
                 display: flex;
-                background: url("ingabire4.jpg")no-repeat center;
+                background: url("ingabire4.jpg") center no-repeat;
                 background-color: black;
-                height: 100vh;
+                height: 80vh;
                 color: white;
-                min-height: 500px;
+                min-height: 400px;
                 font-family: 'Roboto', sans-serif;
                 
             }
@@ -122,6 +122,63 @@
               color: crimson;
               background: none;  
             }
+            /* about me */
+            section{
+                padding: 100px 0;
+
+            }
+            .about{
+                font-family: 'Roboto', sans-serif;
+            }
+            .about .title{
+                position: relative;
+                text-align: center;
+                font-size: 40px;
+                font-weight: 500px;
+                margin-bottom: 60px;
+                padding-bottom: 20px;
+                font-family: 'Ubuntu', sans-serif;
+
+
+            }
+            .about .title::before{
+                content: "";
+                position: absolute;
+                bottom: 0px;
+                left: 50%;
+                width: 180px;
+                height: 3px;
+                background: black;
+                transform: translateX(-50%);
+
+            }
+            .about .title::after{
+                content: "Who am I";
+                position: absolute;
+                bottom: -7px;
+                left: 50%;
+                padding: 5px;
+                background: white;
+                color: crimson;
+                font-size: 20px;
+                transform: translateX(-50%);
+
+            }
+            .about .about-content .left img{
+                height: 400px;
+                width: 400px;
+                object-fit: cover;
+
+            }
+
+
+
+
+
+
+
+
+
             /* responsiveness */
             @media(max-width: 1104px){
                 .home .max-width{
@@ -181,6 +238,11 @@
                     font-size: 35px;
                     
                 }
+                .home .home-content a{
+                    font-size: 23px;
+                    padding: 10px 30px;
+
+                }
 
             }
             @media(max-width: 690px){
@@ -198,6 +260,12 @@
                     font-size: 32px;
                     
                 }
+                .home .home-content a{
+                    font-size: 20px;
+                    padding: 9px 25px;
+
+                }
+            }
                 @media(max-width: 500px){
                     .home .home-content .text-2{
                         font-size: 50px;
