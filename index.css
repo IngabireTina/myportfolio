@@ -43,7 +43,7 @@
             }
             .home{
                 display: flex;
-                background: url("ingabire1.jpg")no-repeat center;
+                background: url("ingabire4.jpg")no-repeat center;
                 background-color: black;
                 height: 100vh;
                 color: white;
@@ -56,4 +56,28 @@
             }
             .home .home-content .text-1{
                 font-size: 27px;
+            }
+            .home .home-content .text-2{
+                font-size: 75px;
+                font-weight: 600;
+                margin-left: -3px;
+            }
+            .home .home-content .text-3{
+                font-size: 40px;
+                margin-top: 5px 0;
+            }
+            .home .home-content .text-4{
+                font-size: 40px;
+                margin-top: 5px 0;
+            }
+            .home .home-content .text-3 span{
+                color: crimson;
+                font-weight: 500;
+              
+            }
+
+            .home .home-content .text-4 span{
+                color: crimson;
+                font-weight: 500;
+              
             }
