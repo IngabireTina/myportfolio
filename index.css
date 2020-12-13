@@ -324,7 +324,7 @@
 
             }
             .projects .project-content .card{
-                width: calc(45% - 18px);
+                width: calc(50% - 18px);
                 background: white;
                 text-align: center;
                 border-radius: 6px;
@@ -342,6 +342,13 @@
             .projects .project-content  p{
                 font-family: 'Roboto', sans-serif;
 
+            }
+            .projects .project-content  p a{
+                text-decoration: underline;
+                color: pink;
+            }
+            .projects .project-content  p a:hover{
+                color: crimson;
             }
             .projects .project-content .card .box{
                 transition: all 0.3s ease;
@@ -487,6 +494,11 @@
                    margin-bottom: 20px;
                 
                 }
+                .projects .project-content .card{
+                    width: calc(80% - 10px);
+                    margin-bottom: 20px;
+                  
+                }
 
             }
 
@@ -515,6 +527,9 @@
                     
                  
                  } 
+                 .projects .project-content .card{
+                     width: 100%;
+                 }
             }
                 @media(max-width: 500px){
                     .home .home-content .text-2{
