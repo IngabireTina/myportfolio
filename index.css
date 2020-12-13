@@ -184,9 +184,29 @@
             }
             .about .about-content .right{
                 width: 55%;
-                font-family: 'Ubuntu', sans-serif;;
+                font-family: 'Ubuntu', sans-serif;
+                
 
             }
+            .about .about-content .right .text{
+                
+                font-size: 25px;
+                margin-bottom: 10px;
+                font-family: 'Roboto', sans-serif;
+
+            }
+            .about .about-content .right p{
+                font-family: 'Ubuntu', sans-serif;
+                text-align: justify;
+
+            }
+            .about .about-content .right{
+
+
+            }
+            
+            
+            
 
 
 
@@ -206,6 +226,11 @@
                 .max-width{
                     padding: 0 50px;
                 }
+            
+               .about .about-content .column{
+                width: 50%;
+
+            }
 
             }
             @media(max-width: 947px){
@@ -260,6 +285,12 @@
                     padding: 10px 30px;
 
                 }
+                .about .about-content .column{
+                    width: 50%;
+
+                }
+                
+
 
             }
             @media(max-width: 690px){
@@ -282,6 +313,11 @@
                     padding: 9px 25px;
 
                 }
+            
+               .about .about-content .column{
+                width: 50%;
+
+            }
             }
                 @media(max-width: 500px){
                     .home .home-content .text-2{
@@ -295,4 +331,9 @@
                         font-size: 27px;
                         
                     }
+                
+                   .about .about-content .column{
+                    width: 50%;
+
+                }
             }
