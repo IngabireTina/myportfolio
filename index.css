@@ -128,7 +128,7 @@
                 padding: 100px 0;
 
             }
-            .about, .services, .contact{
+            .about, .services, .contact, .projects{
                 font-family: 'Roboto', sans-serif;
             }
             /* styling */
@@ -170,7 +170,7 @@
                 content: "Who am I";
 
             }
-            .about .about-content, .services .serv-content, .contact .contact-content{
+            .about .about-content, .services .serv-content, .contact .contact-content, .projects .project-content{
                 display: flex;
                 flex-wrap: wrap;
                 align-items: center;
@@ -308,6 +308,58 @@
                 color: #333;
 
             }
+            /* projects */
+            .projects .title::after{
+                content: " My Projects";
+                background: #222;
+
+            }
+            .projects .title::before{
+                background: white;
+
+            }
+            .projects{
+               color: white;
+               background: #222;
+
+            }
+            .projects .project-content .card{
+                width: calc(45% - 18px);
+                background: white;
+                text-align: center;
+                border-radius: 6px;
+                padding: 20px 25px;
+                color: black;
+                cursor: pointer;
+                
+            }
+            .projects .project-content .card .text{
+                font-size: 25px;
+                font-weight: 500;
+                margin: 10px 0 7px 0;
+              
+            }
+            .projects .project-content  p{
+                font-family: 'Roboto', sans-serif;
+
+            }
+            .projects .project-content .card .box{
+                transition: all 0.3s ease;
+
+            }
+            .projects .project-content .card:hover{
+                background: black;
+                color:white;
+            }
+            .projects .project-content .card:hover .box{
+                transform: scale(1.05);
+            }
+             
+        
+
+
+
+
             /* footer */
 
             footer{
