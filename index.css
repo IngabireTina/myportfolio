@@ -308,6 +308,22 @@
                 color: #333;
 
             }
+            /* footer */
+
+            footer{
+                background: black;
+                padding: 20px 23px;
+                color:white;
+
+            }
+        
+            footer span a{
+                color: crimson;
+                text-decoration: none;
+            }
+            footer span a:hover{
+                text-decoration: underline;
+            }
 
            
             
