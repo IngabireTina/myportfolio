@@ -200,11 +200,7 @@
                 text-align: justify;
 
             }
-            .about .about-content .right{
-
-
-            }
-            
+           
             
             
 
@@ -217,9 +213,17 @@
 
 
             /* responsiveness */
-            @media(max-width: 1104px){
+            @media(max-width: 1300px){
                 .home .max-width{
                     margin-left: 0 50px;
+                }
+            }
+            @media(max-width: 1104px){
+                .about .about-content .left img{
+                    height: 300px;
+                    width: 400px;
+                   
+                   
                 }
             }
             @media(max-width: 991px){
@@ -227,10 +231,7 @@
                     padding: 0 50px;
                 }
             
-               .about .about-content .column{
-                width: 50%;
-
-            }
+             
 
             }
             @media(max-width: 947px){
@@ -285,8 +286,23 @@
                     padding: 10px 30px;
 
                 }
+                .max-width{
+                    max-width: 800px;
+                }
                 .about .about-content .column{
-                    width: 50%;
+                    width: 100%;
+
+                }
+               
+                .about .about-content .left{
+                   display: flex;
+                   justify-content: center;
+                   margin: 0 auto 60px;
+
+                }
+                .about .about-content .right{
+                    flex: 100%;
+
 
                 }
                 
@@ -312,12 +328,7 @@
                     font-size: 20px;
                     padding: 9px 25px;
 
-                }
-            
-               .about .about-content .column{
-                width: 50%;
-
-            }
+                } 
             }
                 @media(max-width: 500px){
                     .home .home-content .text-2{
@@ -331,9 +342,4 @@
                         font-size: 27px;
                         
                     }
-                
-                   .about .about-content .column{
-                    width: 50%;
-
-                }
             }
